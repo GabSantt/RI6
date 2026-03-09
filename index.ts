@@ -57,12 +57,12 @@ let iniciar = () => {
         }
 
         case 'Raiz': {
-        let calculo = new Radiciacao(numero1, numero2)
+        let calculo = new Radiciacao(numero1, numero2) 
         console.log(`Resultado: ${calculo.calcular()}\n`)
         break
         }
-
-        case 'Bhaskara': {
+    
+        case 'Bhaskara': { /*jimcarrey*/
         let calculo = new Bhaskara(numero1, numero2, numero3)
         console.log(`Resultado: ${calculo.calcular()}\n`)
         break
