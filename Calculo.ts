@@ -4,7 +4,7 @@ export default abstract class Calculo {
 
   constructor(numero1: number, numero2: number) {
     this.numero1 = numero1
-    this.numero2 = numero2
+    this.numero2 = numero2 /*endofbeggining*/
   }
 
   public abstract calcular(): number
